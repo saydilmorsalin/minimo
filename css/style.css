@@ -20,7 +20,7 @@ header{
 .container{
     margin: 0 auto;
     width: 90%;
-    /* border: 1px solid; */
+   /* border: 1px solid; */ 
     overflow: hidden;
 }
 .container_2{
@@ -49,14 +49,14 @@ header{
     /* border: 1px solid red; */
 }
 .menu ul{
-     
+     float: right;
 }
 .menu ul li{
     list-style: none;
     float: left;
 }
 .menu ul li a{
-    margin: 0 50px;
+    margin: 0 51px;
     color: #626262;
     text-transform: uppercase; 
     display: block;
@@ -65,7 +65,7 @@ header{
 }
 .menu ul li:last-child a{
     margin-right: 0;
-    justify-self: flex-end;
+    
 }
 .menu ul li  a:hover{
     border-bottom: 1px solid #222222;
@@ -77,8 +77,10 @@ header{
 .banner{
     padding: 60px 0 60px;
 }
-.banner_img{
+.banner img{
     width: 100%;
+}
+.banner_img img{
 }
 /* banner end */
 /* about us start */
